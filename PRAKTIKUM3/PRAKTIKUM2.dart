@@ -1,6 +1,11 @@
 void main() {
+  // langkah 1
   var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
   print(halogens);
+
+  // penjelasan :
+
+  // langkah 3
 
   var names1 = <String>{};
   Set<String> names2 = {}; // This works, too.
@@ -9,4 +14,6 @@ void main() {
   print(names1);
   print(names2);
   print(names3);
+
+  // penjelasan :
 }

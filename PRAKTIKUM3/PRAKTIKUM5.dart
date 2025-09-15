@@ -8,13 +8,13 @@ void main() {
   }
 
   // Record type annotation in a variable declaration:
-  // (String, int) mahasiswa;
-  // print(mahasiswa);
+  (String, int) mahasiswa = ('Esa Pratama Putri', 2341720061);
+  print(mahasiswa);
 
-  // var mahasiswa2 = ('first', a: 2, b: true, 'last');
+  var mahasiswa2 = ('first', a: 2, b: true, 'last');
 
-  // print(mahasiswa2.$1); // Prints 'first'
-  // print(mahasiswa2.a); // Prints 2
-  // print(mahasiswa2.b); // Prints true
-  // print(mahasiswa2.$2); // Prints 'last'
+  print(mahasiswa2.$1); // Prints 'first'
+  print(mahasiswa2.a); // Prints 2
+  print(mahasiswa2.b); // Prints true
+  print(mahasiswa2.$2); // Prints 'last'
 }
