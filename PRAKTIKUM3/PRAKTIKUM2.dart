@@ -1,19 +1,14 @@
 void main() {
-  // langkah 1
+  // membuat set berisi elemen halogen
   var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
   print(halogens);
 
-  // penjelasan :
-
-  // langkah 3
-
-  var names1 = <String>{};
-  Set<String> names2 = {}; // This works, too.
-  var names3 = {}; // Creates a map, not a set.
+  // untuk membuat set kosong dengan tipe string
+  var names1 = <String>{}; // set kosong bertipe String
+  Set<String> names2 = {};
+  var names3 = {};
 
   print(names1);
   print(names2);
   print(names3);
-
-  // penjelasan :
 }
