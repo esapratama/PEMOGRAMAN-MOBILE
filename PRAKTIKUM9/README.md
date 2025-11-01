@@ -1,0 +1,9 @@
+# praktikum 9
+
+A new Flutter project.
+
+1. Jelaskan maksud void async pada praktikum 1?
+- fungsi tersebut dapat menjalankan proses yang memerlukan waktu (seperti mengambil data dari kamera, membaca file, atau menunggu proses tertentu) tanpa menghentikan jalannya program utama. Dengan async, fungsi dapat menggunakan kata kunci await di dalamnya untuk menunggu hasil dari suatu proses sebelum melanjutkan ke baris berikutnya. Sementara itu, kata kunci void menunjukkan bahwa fungsi tersebut tidak mengembalikan nilai apa pun.
+2. Jelaskan fungsi dari anotasi @immutable dan @override ?
+- Anotasi @immutable digunakan dalam Flutter untuk menandai bahwa sebuah kelas bersifat immutable, yaitu objek atau variabel di dalam kelas tersebut tidak boleh diubah setelah dibuat. Biasanya anotasi ini digunakan pada kelas widget, terutama pada StatelessWidget, karena data di dalam widget jenis ini harus tetap dan tidak bisa diubah selama aplikasi berjalan. Tujuannya adalah agar perilaku widget tetap konsisten dan terhindar dari perubahan data yang tidak diinginkan.
+- Sementara itu, anotasi @override digunakan untuk menandai bahwa sebuah fungsi dalam kelas turunan menimpa atau menggantikan fungsi yang sudah ada di kelas induk. Dengan kata lain, @override menunjukkan bahwa fungsi yang ditulis adalah versi modifikasi dari fungsi bawaan kelas asalnya. Contohnya, pada Flutter, ketika kita membuat widget baru yang mewarisi StatelessWidget atau StatefulWidget, kita akan menulis ulang fungsi build() dengan menambahkan @override agar sistem mengetahui bahwa kita sedang mengganti perilaku bawaan dari fungsi tersebut.
